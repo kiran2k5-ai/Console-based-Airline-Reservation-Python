@@ -1,0 +1,21 @@
+[project]
+name = "airline-reservation-system"
+version = "0.1.0"
+description = "A Console based Airline Reservation System built with Python. Each and every line is written by hand no AI code used."
+authors = [
+    {name = "KIRAN P"}
+]
+license = {text = "none"}
+readme = "README.md"
+requires-python = ">=3.9,<4.0"
+dependencies = []
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.4.1"
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.packages]
+src = { from = "src" }

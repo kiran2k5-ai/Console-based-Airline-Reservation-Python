@@ -1,0 +1,16 @@
+
+(airline-reservation-system-py3.13) E:\Console\Airline Reservation System>poetry update
+
+'python-versions'
+
+(airline-reservation-system-py3.13) E:\Console\Airline Reservation System>poetry add --dev pyinstaller
+Using version ^6.15.0 for pyinstaller
+
+
+'python-versions'
+
+(airline-reservation-system-py3.13) E:\Console\Airline Reservation System>poetry env remove python
+Deleted virtualenv: C:\Users\KIRAN\AppData\Local\pypoetry\Cache\virtualenvs\airline-reservation-system-AQy-9OJW-py3.13
+
+(airline-reservation-system-py3.13) E:\Console\Airline Reservation System>
+(airline-reservation-system-py3.13) E:\Console\Airline Reservation System>
